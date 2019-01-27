@@ -56,8 +56,6 @@ public class ZooKeeperClientDemo {
 	
 	@Test
 	public void testListChildren() throws Exception{
-	
-		
 		List<String> children = zk.getChildren("/eclipse", false,null);
 		
 		for (String child : children) {
